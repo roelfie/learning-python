@@ -94,6 +94,8 @@ SyntaxError: invalid syntax
     * calculate the first wednesday of each month, etc. etc.
   * [files](https://docs.python.org/3.8/library/filesys.html)
     * no need to import a library for basic stuff (like reading and writing files)
+  * [os](https://docs.python.org/3.8/library/os.html)
+    * information about the OS, environment, path utilities, file descriptors, etc.
 
 #### datetime formatting
 
