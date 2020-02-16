@@ -88,6 +88,10 @@ SyntaxError: invalid syntax
   * [timedelta](https://docs.python.org/3.8/library/datetime.html#timedelta-objects)
     * `print ("one week from now it will be: " + str(datetime.now() + timedelta(weeks=1)))`
     * supports seconds, minutes, hours, days and weeks; but not months or years!
+  * [calendar](https://docs.python.org/3.8/library/calendar.html)
+    * generate a (highly configurable) HTML calendar for a specific month
+    * iterate over the weekdays, monthdays, monthdates, yeardays, yeardates, ..
+    * calculate the first wednesday of each month, etc. etc.
 
 #### datetime formatting
 
