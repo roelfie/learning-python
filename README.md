@@ -92,6 +92,8 @@ SyntaxError: invalid syntax
     * generate a (highly configurable) HTML calendar for a specific month
     * iterate over the weekdays, monthdays, monthdates, yeardays, yeardates, ..
     * calculate the first wednesday of each month, etc. etc.
+  * [files](https://docs.python.org/3.8/library/filesys.html)
+    * no need to import a library for basic stuff (like reading and writing files)
 
 #### datetime formatting
 
