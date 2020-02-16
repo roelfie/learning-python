@@ -80,3 +80,8 @@ SyntaxError: invalid syntax
   * `for x in range(5, 10):`
   * `for x in <collection>:`
   * `for i,x in enumerate(<collection>):` gives you access to the loop counter
+
+## Documentation
+
+* [python 3.8 documentation](https://docs.python.org/3.8/index.html)
+  * [datetime](https://docs.python.org/3.8/library/datetime.html)
