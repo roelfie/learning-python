@@ -67,6 +67,11 @@ Now open a `*.py` file in vscode and in the debug view, hit the "Start debugging
 SyntaxError: invalid syntax
 ```
 
+## Characteristics of the python language
 
+* dynamically typed
+* strongly typed
+* single-line comment `# some comment`
+* multi-line comments (like `/* bladibla ... */` in Java) not supported 
 
 
