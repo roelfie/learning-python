@@ -42,9 +42,6 @@ $
 When you open the debug view in vscode for the first time, there are no launch configurations. Click the "create a launch.json file" link and choose "Python file (debug the currently active Python file)". A file `.vscode/launch.json` will be created:
 ```
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -58,14 +55,6 @@ When you open the debug view in vscode for the first time, there are no launch c
 }
 ```
 Now open a `*.py` file in vscode and in the debug view, hit the "Start debugging" button (green triangle).
-
-:warning: If you see a message like this in the log, remove the comments from launch.json:
-```
-  File "/Users/roelfie/workspace/vscode/learning-python/.vscode/launch.json", line 2
-    // Use IntelliSense to learn about possible attributes.
-    ^
-SyntaxError: invalid syntax
-```
 
 ## Characteristics of the Python language
 
@@ -92,10 +81,10 @@ SyntaxError: invalid syntax
     * generate a (highly configurable) HTML calendar for a specific month
     * iterate over the weekdays, monthdays, monthdates, yeardays, yeardates, ..
     * calculate the first wednesday of each month, etc. etc.
-  * [files](https://docs.python.org/3.8/library/filesys.html)
-    * no need to import a library for basic stuff (like reading and writing files)
-  * [os](https://docs.python.org/3.8/library/os.html)
-    * information about the OS, environment, path utilities, file descriptors, etc.
+  * [files](https://docs.python.org/3.8/library/filesys.html) basic file operations like reading and writing are available by default (no import needed)
+  * [os](https://docs.python.org/3.8/library/os.html) information about the OS, environment, path utilities, file descriptors, etc.
+  * [shutil](https://docs.python.org/3.8/library/shutil.html) shell utilities like copy, rename, archive (zip/tar/..)
+  * [zipfile](https://docs.python.org/3/library/zipfile.html) fine grained control over zip file creation
 
 #### datetime formatting
 
