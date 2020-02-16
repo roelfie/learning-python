@@ -85,8 +85,11 @@ SyntaxError: invalid syntax
 
 * [python 3.8 documentation](https://docs.python.org/3.8/index.html)
   * [datetime](https://docs.python.org/3.8/library/datetime.html)
+  * [timedelta](https://docs.python.org/3.8/library/datetime.html#timedelta-objects)
+    * `print ("one week from now it will be: " + str(datetime.now() + timedelta(weeks=1)))`
+    * supports seconds, minutes, hours, days and weeks; but not months or years!
 
-#### datetime
+#### datetime formatting
 
 * [datetime.strftime("The current date is %x")](https://docs.python.org/3.8/library/datetime.html#strftime-strptime-behavior)
   * `%y`: year
