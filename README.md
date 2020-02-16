@@ -85,3 +85,20 @@ SyntaxError: invalid syntax
 
 * [python 3.8 documentation](https://docs.python.org/3.8/index.html)
   * [datetime](https://docs.python.org/3.8/library/datetime.html)
+
+#### datetime
+
+* [datetime.strftime("The current date is %x")](https://docs.python.org/3.8/library/datetime.html#strftime-strptime-behavior)
+  * `%y`: year
+  * `%b`: month
+  * `%d`: day
+  * `%a`: weekday
+  * `%c`: local date time
+  * `%x`: local date
+  * `%X`: local time
+  * `%H`: hours (24)
+  * `%I`: hours (12)
+  * `%M`: minutes
+  * `%S`: seconds 
+  * `%p`: AM/PM
+
