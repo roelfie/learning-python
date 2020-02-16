@@ -74,3 +74,4 @@ SyntaxError: invalid syntax
 * single-line comment `# some comment`
 * multi-line comment (like `/* bladibla ... */` in Java) not supported 
 * scope defined by colon & indentation (instead of curly braces in Java)
+* no equivalent of the Java switch statement (use `if` / `elif` / `else` instead)
