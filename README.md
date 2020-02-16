@@ -85,6 +85,7 @@ Now open a `*.py` file in vscode and in the debug view, hit the "Start debugging
   * [os](https://docs.python.org/3.8/library/os.html) information about the OS, environment, path utilities, file descriptors, etc.
   * [shutil](https://docs.python.org/3.8/library/shutil.html) shell utilities like copy, rename, archive (zip/tar/..)
   * [zipfile](https://docs.python.org/3/library/zipfile.html) fine grained control over zip file creation
+  * [urllib](https://docs.python.org/3/library/urllib.html)
 
 #### datetime formatting
 
