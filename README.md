@@ -75,3 +75,8 @@ SyntaxError: invalid syntax
 * multi-line comment (like `/* bladibla ... */` in Java) not supported 
 * scope defined by colon & indentation (instead of curly braces in Java)
 * no equivalent of the Java switch statement (use `if` / `elif` / `else` instead)
+* for-loops:
+  * `while(condition):`
+  * `for x in range(5, 10):`
+  * `for x in <collection>:`
+  * `for i,x in enumerate(<collection>):` gives you access to the loop counter
