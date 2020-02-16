@@ -87,7 +87,8 @@ Now open a `*.py` file in vscode and in the debug view, hit the "Start debugging
   * [zipfile](https://docs.python.org/3/library/zipfile.html) fine grained control over zip file creation
   * [urllib](https://docs.python.org/3/library/urllib.html)
   * [http.client](https://docs.python.org/3/library/http.client.html)
-
+  * [xml.dom](https://docs.python.org/3/library/xml.dom.html) 
+    * [xml.dom.minidom](https://docs.python.org/3/library/xml.dom.minidom.html) a minimal implementation of the Document Object Model interface
 
 #### datetime formatting
 
@@ -105,3 +106,6 @@ Now open a `*.py` file in vscode and in the debug view, hit the "Start debugging
   * `%S`: seconds 
   * `%p`: AM/PM
 
+#### HTML parsing
+
+An example of HTML parsing can be found [here](https://www.linkedin.com/learning/learning-python-2/parsing-and-processing-html).
